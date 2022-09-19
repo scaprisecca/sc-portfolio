@@ -1,38 +1,119 @@
-.App {
-  text-align: center;
+:root {
+  /* Colors */
+  --green: #72e2ae;
+  --dark-green: #32634C;
+  --dark-blue: #0f1629;
+  --blue: rgba(59,130,246,.5);
+  --white: #ffffff;
+
+  --border-color: rgb(229, 231, 235);
+  --light-bg: rgba(229, 231, 235, 0.1);
+
+  /* Button Size */
+  --smBtn: .5rem 1rem;
+  --mdBtn: .5rem 1.5rem;
+  --lgBtn: .75rem 1.75rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* Util Classes */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.whiteText {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/* Button */
+button {
+  padding: var(--smBtn);
+  border-radius: 4px;
+  font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.primaryBtn {
+  background-color: var(--green);
+  border-color: var(--dark-green);
+  border-width: 1px;
+}
+
+.secondaryBtn {
+  background-color: var(--blue);
+  border-color: var(--dark-blue);
+  border-width: 1px;
+}
+
+/* App */
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 30px;
+  background-color: var(--dark-blue);
+}
+
+/* Navbar */
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbarItem {
+  color: var(--white);
+}
+
+.navbarItem:first-child {
+  color: var(--white);
+}
+
+.navbarLink {
+  color: var(--white);
+}
+
+/* Home Page */
+
+.Home {
+  max-width: 1200px;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 20px;
+}
+
+/* Projects Page */
+
+.myWork {
+  min-height: 100vh;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  max-width: 45%;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  background-color: var(--light-bg);
+  border-radius: 4px;
+}
+
+.cardImage {
+  width: 300px;
+  height: 300px;
+  
+}
+
+.cardTitle {
+  text-transform: uppercase;
+  font-weight: 400;
+  color: var(--white);
+}
+
+.cardDescription {
+  color: var(--white);
 }

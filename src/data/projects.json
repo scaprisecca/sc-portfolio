@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "project 1",
+        "description": "some info about the project",
+        "skills": ["skill 1", "skill 2", "skill 3"],
+        "image": "https://images.unsplash.com/photo-1663431264227-29f7a2bd3237?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+    },
+    {
+        "id": 2,
+        "name": "project 2",
+        "description": "some info about the project",
+        "skills": ["skill 1", "skill 2", "skill 3"],
+        "image": "https://images.unsplash.com/photo-1663431262170-b94c02b712cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+    }
+]
