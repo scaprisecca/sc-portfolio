@@ -1,0 +1,31 @@
+.nav {
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+}
+
+.navbar {
+    display: inline-flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+
+.navbarItem {
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.navbarItem:first-child {
+    color: var(--white);
+}
+
+.navbarLink {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.logo {
+    --size: 50px;
+    height: var(--size);
+    width: var(--size);
+}

@@ -3,7 +3,7 @@ import './normalize.css';
 import './App.css';
 import Home from './pages/Home';
 import MyWork from './pages/MyWork';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import Projects from './data/projects.json';
 
 function App() {

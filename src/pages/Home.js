@@ -1,21 +1,12 @@
-import Button from '../components/Button';
-import '../normalize.css';
-import '../App.css';
+import styles from './Home.module.css';
+import Button from '../components/Button/Button';
 
 const Home = () => {
     return ( 
-        <main className='Home'>
-            <div className='aboutMe'>
-                <h1 className='whiteText'>Hi, I'm Scott Caprisecca</h1>
-                <p className="subtitle whiteText">React Frontend Developer</p>
-
-                <p className='whiteText'>some info about me</p>
-                <div className="buttonContainer">
-                    <Button text="View Projects" type="primaryBtn" />
-                    <Button text="Download Resume" type="secondaryBtn" />
-                </div>
-
-            </div>
+        <main className={styles.home}>
+           <p className="primaryText">Hi, my name is</p> 
+           <h1 className='whiteText'>Scott Caprisecca</h1>
+           <p className="lightText">I create solutions through coding</p>
         </main>
      );
 }
